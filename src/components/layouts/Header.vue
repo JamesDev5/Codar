@@ -47,5 +47,12 @@ a {
   border: none;
   border-radius: 10px;
 }
-
+@media only screen and (max-width: 600px) {
+  .container-topo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 </style>

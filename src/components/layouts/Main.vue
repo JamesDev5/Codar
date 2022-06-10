@@ -23,7 +23,12 @@
         </div>
       </ul>
 
-      <img src="@/assets/coding.png" alt="" style="width: 250px" />
+      <img
+        class="img-servicos"
+        src="@/assets/coding.png"
+        alt=""
+        style="width: 250px"
+      />
     </div>
   </div>
 
@@ -68,7 +73,7 @@ export default {
   align-items: center;
 }
 
-.conteudo-lateral h1 {
+.container-lateral h1 {
   margin-top: 0;
   color: #d6000d;
 }
@@ -136,5 +141,48 @@ small {
 }
 h4 {
   margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .servicos {
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    order: 1;
+  }
+  .container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .depoimentos {
+    margin-top: 100px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    width: 300px;
+    height: 150px;
+    background-color: rgba(172, 169, 169, 0.5);
+    border-radius: 20px;
+  }
+
+  .circle {
+    width: 60px;
+    height: 60px;
+    background-color: #d6000d;
+    border-radius: 30.5px;
+  }
 }
 </style>
