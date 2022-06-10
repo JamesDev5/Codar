@@ -98,7 +98,7 @@ export default {
   margin-right: 5px;
 }
 .depoimentos {
-  margin-top: 200px;
+  margin-top: 150px;
   padding: 30px;
   display: flex;
   justify-content: space-evenly;
@@ -111,7 +111,7 @@ export default {
   justify-content: center;
   font-size: 12px;
   width: 450px;
-  height: 100px;
+  height: 150px;
   gap: 10px;
   background-color: rgba(172, 169, 169, 0.5);
   border-radius: 20px;
