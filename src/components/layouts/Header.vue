@@ -1,10 +1,10 @@
 <template>
 <nav class="container-topo">
-    <h1 class="logo">Codar.</h1>
+    <h1 >Codar.</h1>
   <ul class="menu-navigation">
-    <li><a href="#home">Inicio</a></li>
-    <li><a href="#services">Serviços</a></li>
-    <li><a href="#Contact">Contatos</a></li>
+    <li><a href="home">Inicio</a></li>
+    <li><a href="services">Serviços</a></li>
+    <li><a href="contact">Contatos</a></li>
     <button class="btn-login">Login</button>
   </ul>
 </nav>
@@ -31,7 +31,7 @@ export default {
   gap: 20px;
   font-weight: 700;
 }
-.logo{
+h1{
   color:#D6000D;
 }
 li{
